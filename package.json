@@ -1,0 +1,23 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "Eduardo Evaristo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
