@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 
 // 🔐 Aqui o auth é "registrado"
-app.use(auth);
+// app.use(auth);
 
 // Rotas
 app.get('/', (req, res) => {
